@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>bootstrap</title>
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <style>
+    	.a{
+             font-family: prague;
+    		padding-top: 20px;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+    	}
+    	.f{
+    		text-align: center;
+    		line-height: 35px;
+            letter-spacing: 1px;
+            /*color: white;*/
+            font-size: 15px;
+            margin-top: 30px;
+            margin-bottom:30px;
+    	}
+    	.z{
+    		margin-top: 30px;
+            margin-bottom:30px;
+    	}
+          
+    	.b{
+    		line-height: 35px;
+           letter-spacing: 1px;
+           word-spacing: 1px;
+           text-align: justify;
+    	}
+    	.img{
+    		width: 75%;
+    	}
+
+    	.e{
+    		margin-top: 30px;
+            margin-bottom:30px;
+    	}
+    	@media(max-width: 768px)
+    	{
+    		.img{
+    		 width: 100%;
+    	   }
+    	}
+    	.why{
+    		background-image: url(https://www.firstfiddle.in/assets/images/bannerabout.jpg);
+    		height: 500px;
+            width: 100%;
+          padding-right: 0!important;
+          padding-left: 0!important;
+          margin-right: auto;
+          margin-left: auto;
+         background-size: cover;
+         margin-top: 30px;
+         margin-bottom: 30px;
+    	}
+          .wh{
+            background-image: url(https://www.firstfiddle.in/assets/images/outletbanner.png);
+            height: 500px;
+            width: 100%;
+          padding-right: 0!important;
+          padding-left: 0!important;
+          margin-right: auto;
+          margin-left: auto;
+         background-size: cover;
+         margin-top: 30px;
+         /*margin-bottom: 30px;*/
+        }
+
+    	.mt{  
+    		 font-family: prague;
+              font-size: 60px;
+              color: whitesmoke;
+              margin-top: 102px;
+    	}
+    	.ms{
+         line-height: 40px;
+         word-spacing: 3px;
+         color: white;
+    	 font-size: 19px; 	
+    	}
+    	.mtop{
+
+    		background-color: #ffc107;
+    		color: white;
+    		padding: 10px 20px;
+    	}
+      
+       /* @media(max-width 760px){
+        	.ms{
+         line-height: 40px;
+         word-spacing: 1px;
+         color: white;
+    	 font-size: 12px; 	
+    	}
+        }*/
+        @media(max-width: 768px)
+        {
+            .ms{
+               font-size: 14px;
+              word-spacing: 1px;
+           }
+        }
+            @media(max-width: 768px)
+        {
+            .mt{
+               font-size: 35px;
+              word-spacing: 3px;
+           }
+        }
+         
+         .box{
+             width: 240px;
+             height: 200px;
+             float: left;
+             position: relative;
+             top: 26px;
+             left: 115px;
+      }  
+
+      .small{
+         height: 330px;
+      }
+
+      .footer{
+        padding: 50px;
+        color: white;
+        background-color: #020306f0;
+      }
+      .md{
+        line-height: 40px;
+         word-spacing: 1px;
+         color: white;
+         font-size: 18px;
+      }
+      .lg{
+            width: 50%;
+            margin-top: 30px;
+      }
+
+        @media(max-width: 768px)
+        {
+             .small{
+         height: 1000px;
+             }
+        }
+    
+     @media(max-width: 768px)
+        {
+             .box{
+                   margin-bottom: 30px;
+                   left: 5px;
+             }
+        }
+    
+      strong{
+        color: #ffc107;
+        font-weight: bolder;
+      }
+       
+       a{
+          color: #ffc107;
+        font-weight: bolder;
+       }
+ 
+    </style>
+
+</head>
+<body>
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a href="" class="navbar-brand">
+      <img src="https://www.firstfiddle.in/assets/images/ff-logo-02.png" style="width:59px;" class="web-logo">
+
+      <img class="mob-logo" src="https://www.firstfiddle.in/assets/images/logo-for-mobile.png">
+    </a>
+    
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#pn">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  <div class="collapse navbar-collapse" id=pn>
+    <ul class="navbar-nav ms-auto">
+      <!-- <li><a href="home.html" class="nav-link">Home</a></li>
+      <li><a href="about.html" class="nav-link">Home</a></li> -->
+      <li><a href="" class="nav-link">HOME</a></li>
+      <li><a href="" class="nav-link">ABOUT</a></li>
+      <li><a href="" class="nav-link">BRANDS</a></li>
+      <li><a href="" class="nav-link">OURTEAM</a></li>
+      <li><a href="" class="nav-link">PRESS RELEASE</a></li>
+      <li><a href="" class="nav-link">CONTACT</a></li>
+     
+      
+      <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            CAREERS
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+
+      <!---modal button-->
+      <button type="button" class="btn btn-outline-warning btn-lg" data-bs-toggle="modal" data-bs-target="#aa">FRANCHISE</button>
+      <!--model button end--->
+    </ul> 
+  </div><!--collapse end-->
+  </div><!--container-fluid-->
+</nav><!--nav end-->
+
+
+
+<div class="carousel slide" data-bs-ride="carousel" id=a>
+
+  <!--carousel-indicators start-->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#a" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#a" data-bs-slide-to="1" ></button>
+    <button type="button" data-bs-target="#a" data-bs-slide-to="2" ></button>
+  </div>
+  <!--carousel-indicators end-->
+<!--carousel-inner-->
+  <div class="carousel-inner">
+    <!--carousel-item start-->
+    <div class="carousel-item active" data-bs-interval="4000">
+
+      <img src="https://app.firstfiddle.in/images/brand-banner/lotd.jpeg" class="w-100" alt="...">
+      <div class="carousel-caption">
+        <h5>First slide label</h5>
+      </div>
+    </div>
+<div class="carousel-item " data-bs-interval="4000">
+
+      <img src="https://app.firstfiddle.in/images/brand-banner/dragonflybanner.jpeg" class="w-100" alt="...">
+    </div>
+    <div class="carousel-item " data-bs-interval="4000">
+
+      <img src="https://app.firstfiddle.in/images/brand-banner/lotd.jpeg" class="w-100" alt="...">
+    </div>
+<!--carousel-inner end-->  
+  
+  <!--carousel-control-prev start--> 
+  <button class="carousel-control-prev" type="button" data-bs-target="#a" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+
+  <button class="carousel-control-next" type="button" data-bs-target="#a" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+  <!--carousel-control-prev end-->
+</div><!--carousel slide end-->
+<br>
+</div>
+<div class="container-fluid ">
+	<div class="container">
+		<h1 class="text-center a">WELCOME TO<b style="color:#fbaa1a"> FIRST FIDDLE</b></h1>
+		<br>
+		<div class="row">
+			<div class="col-md-7">
+				<p class="b">First Fiddle Restaurants, one of India’s most prominent F&B companies in the casual dining sector, is headed by Priyank Sukhija. From Lazeez Affair, the first brand conceived in 1999 to Lord of The Drinks, Dragonfly Experience, Diablo and Plum By Bent Chair, our latest ventures, we have brought a wave of innovation in the hospitality industry throughout. Being one of the India’s largest restaurant chain with over 30+ restaurants, now we are open to franchising routes for expansion and soon hitting the international grounds too.</p>
+				<button class="btn btn-outline-warning e ">Read More...</button>
+			</div>
+			<div class="col-md-5 text-center">
+				<img src="https://www.firstfiddle.in/assets/images/ffbanner.png" class="img">
+				
+			</div>
+			
+		</div><!--row end-->
+		
+	</div><!--container end-->
+</div><!--end container-fluid-->
+
+<div class="container-fluid why">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2"></div>
+			<div class="col-md-8 text-center">
+				<h1 class="mt">MEDIA MENTIONS</h1>
+				<p class="ms">We are making headlines since 1999 for having upmarket conceptualized places, experimental gastronomic affairs, and exotic mixology. From the heart of the country, we are now in the hearts of people in our country!</p>
+				<button class="btn btn-outline-warning mtop">Know more</button>
+			</div>
+			<div class="col-md-2"></div>
+		</div>
+	</div>
+
+</div>
+
+<div class="container-fluid small">
+    <div class="container">
+        <h1 class="text-center a">EXPLORE <b style="color: #ffc107;">OUR BRANDS</b>
+        </h1>
+        <div class="box col-md-3" style="margin-left: 32px;"> 
+        <a href="">
+         <img src="https://www.firstfiddle.in/assets/images/imagehome/lazeezaffair.jpeg" width="100%" height="100%">
+         </a>
+         </div>
+
+        <div class="box col-md-3" style="margin-left: 32px;"> 
+        <a href="">
+         <img src="https://www.firstfiddle.in/assets/images/imagehome/lotd.jpeg" width="100%" height="100%">
+         </a>
+         </div>
+
+         <div class="box col-md-3" style="margin-left: 32px;"> 
+        <a href="">
+         <img src="https://www.firstfiddle.in/assets/images/imagehome/openhouse.jpeg" width="100%" height="100%">
+         </a>
+         </div>
+
+         <div class="box col-md-3" style="margin-left: 32px;"> 
+        <a href=""> 
+         <img src="https://www.firstfiddle.in/assets/images/imagehome/plum.jpeg" width="100%" height="100%">
+         </a>
+         </div>
+
+    </div>
+</div>
+<br>
+<div class="container-fluid wh">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 text-center">
+                <h1 class="mt">VISIT OUR OUTLETS</h1>
+                <p class="md">From Indian food to International food and scrumptious fusion eateries, we bring to you the best of both worlds with magical events happening every other night! We're here with the perfect concept resto-bars, which will lift your mundane lives. Have a glance right away!</p>
+                <button class="btn btn-outline-warning mtop">Know more</button>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+
+</div>
+
+<div class="footer">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="text-center">
+                    <img src="https://www.firstfiddle.in/assets/images/ff-logo-02.png" class="lg">
+                </div>
+
+            </div>
+            <div class="col-md-7">
+                <div>
+                    <b>
+                        <h1 style="font-family: 'prague'; font-size: 39px;   line-height: 50px; letter-spacing: 3px; color: #fff;">
+                            <span style="color: #ffad00;">CONTACT</span>US
+                        </h1>
+
+                    </b>
+                    <p style="line-height: 20px; font-size: 15px;">
+                        We're a team focusing on redefining the way the hospitality industry works by bringing in concept based restaurants across India. We are truly committed to catering to the ever-changing cosmopolitan taste of the customer and revolutioning the F & B industry!
+                    </p>
+                    <div class="text-widget">
+                        <div class="row">
+                            <div class="col-md-6 foot">
+                                <span>
+                                    <strong>Address</strong>
+                                    <br>
+                                    6, Chanakyapuri Shopping Complex, 48, Malcha Marg, New Delhi 110021
+                                </span>
+                            </div>
+                            <div class="col-md-6 foot">
+                                <span>
+                                    <strong>Franchise Enquiry</strong>
+                                    <br>
+                                    Mobile:
+                                    <a href="tel:09313663486"><b>+91 9313663486</b></a>
+                                     <br>
+                                    Email:mailto:
+                                    <a href="franchise@firstfiddle.in">franchise@firstfiddle.in</a>
+                                </span>
+                            </div>
+                        </div>
+                        
+                         <div class="row">
+                            <div class="col-md-6 foot">
+                                <span>
+                                    <strong>Franchise Enquiry</strong>
+                                    <br>
+                                    Mobile:
+                                    <a href="tel:09313663486"><b>+91 9999304427</b></a>
+                                     <br>
+                                    Email:
+                                    <a href="franchise@firstfiddle.in">careers@firstfiddle.in</a>
+                                </span>
+                            </div>
+                            <div class="col-md-6 foot">
+                                <span>
+                                    <strong>Other Enquiry</strong>
+                                    
+                                     <br>
+                                    Email:
+                                    <a href="franchise@firstfiddle.in">customercare@firstfiddle.in</a>
+                                </span>
+                            </div>
+                        </div>
+                        <div>
+                            <a href="">
+                                <i class="fab fa-linkedin">
+                                    
+                                </i>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>            
+        </div>
+    </div>
+
+<!-- Button trigger modal -->
+<div class="modal fade" id="aa">
+  <div class="modal-dialog modal-md" > <!--modal-xl,sm,lg--->
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Login Form</h5>
+
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+      </div><!---modal header end--->
+      <div class="modal-body">
+<form>
+          <div class="mb-3">
+            <label>Username</label>
+            <input type="text" name="" placeholder="ENter User name" class="form-control">
+          </div>
+          <div class="mb-3">
+            <label>Password</label>
+            <input type="password" name="" placeholder="ENter User name" class="form-control">
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+      </div><!-- modal body--->
+  </div><!---model dialog--- end=--->
+</div>
+<!---modal end--->         
+</div>
+</body>
+</html> 
